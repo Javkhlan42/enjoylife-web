@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"><img src="logo.PNG" alt="Company logo" width="40" height="40"></a>
+        </div>
+        <input type="search" aria-label="Search events" placeholder="Search events...">
+
+        <nav>
+            <ul>
+                <li><a href="#" aria-label="Create Event">Create Event</a></li>
+                <li><a href="#" aria-label="Liked and Joined Events">Like and Joined</a></li>
+                <li><a href="#" aria-label="Toggle Dark Mode">Dark Mode</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="https://picsum.photos/id/1/700/350" alt="An illustrative image" width="700" height="350">
+
+    <section>
+        <div class="login-container">
+            <h2>НЭВТРЭХ</h2>
+            <form action="/login" method="POST">
+                <label for="phone">Утасны дугаар</label>
+                <input type="text" id="phone" name="phone" placeholder="Утасны дугаар" required aria-required="true">
+
+                <label for="password">Нууц үг</label>
+                <input type="password" id="password" name="password" placeholder="Нууц үг" required
+                    aria-required="true">
+
+                <a href="reset-password" aria-label="Reset Password">Нууц үг сэргээх</a>
+                <button type="submit">НЭВТРЭХ</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="logo">
+            <a href="#"><img src="logo.PNG" width="50" height="50" alt="Logo"></a>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="Like.html">Likes</a>
+            <a href="nuur_huudas">Profile</a>
+            <a href="create_event.html">Create event</a>
+            <a href="Login.html">Login</a>
+        </div>
+        <div class="create-event-footer">
+            <button>lets find event</button>
+        </div>
+    </footer>
+</body>
+
+
+</html>

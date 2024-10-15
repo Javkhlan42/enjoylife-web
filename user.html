@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - ENJOYLIFE</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS файл -->
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="logo">
+            <h1>ENJOYLIFE</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search events...">
+            <button><img src="search-icon.png" alt="Search"></button>
+        </div>
+        <div class="user-actions">
+            <a href="#">Create an event</a>
+            <a href="#"><img src="heart-icon.png" alt="Likes"></a>
+            <a href="#"><img src="ticket-icon.png" alt="Tickets"></a>
+            <a href="mailto:someone@example.com">gmail.com</a>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <a href="#">Нүүр хуудас</a> &gt; <a href="#">Хувийн мэдээлэл</a>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+        <section class="user-info">
+            <h2>Хувийн мэдээлэл</h2>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">Овог</label>
+                    <input type="text" id="first-name" placeholder="Овог">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Нэр</label>
+                    <input type="text" id="last-name" placeholder="Нэр">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Утас</label>
+                    <input type="tel" id="phone" placeholder="Утас">
+                </div>
+                <div class="form-group">
+                    <label for="email">Имэйл</label>
+                    <input type="email" id="email" placeholder="Имэйл">
+                </div>
+                <div class="form-group">
+                    <label for="facebook">Facebook</label>
+                    <input type="text" id="facebook" placeholder="Facebook">
+                </div>
+                <div class="form-group">
+                    <label for="instagram">Instagram</label>
+                    <input type="text" id="instagram" placeholder="Instagram">
+                </div>
+                <div class="form-group">
+                    <label for="youtube">Youtube</label>
+                    <input type="text" id="youtube" placeholder="Youtube">
+                </div>
+                <div class="form-group">
+                    <label for="hobby">Хобби</label>
+                    <input type="text" id="hobby" placeholder="Хөл бөмбөг">
+                </div>
+                <div class="form-group">
+                    <label for="favorite-music">Дуу хөгжим</label>
+                    <input type="text" id="favorite-music" placeholder="Дуу хөгжим">
+                </div>
+            </form>
+        </section>
+
+        <section class="event-info">
+            <h2>Эвэнт мэдээлэл</h2>
+            <div class="no-events">
+                <p>Хадгалагдсан эвент алга</p>
+                <img src="empty-events.png" alt="No events">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Gallery</a>
+            <a href="#">Team</a>
+        </div>
+        <div class="event-cta">
+            <button>Let's find event</button>
+            <button class="create-event-btn">Event</button>
+        </div>
+    </footer>
+</body>
+</html>

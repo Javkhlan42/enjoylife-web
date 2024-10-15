@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"><img src="logo.PNG" alt="user photo" width="40" height="40"></a>
+        </div>
+        <input type="search" placeholder="Search events...">
+
+        <nav>
+            <ul>
+                <li><a href="#">Create Event</a></li>
+                <li><a href="#">Like and Joined</a></li>
+                <li><a href="#">Dark Mode</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <a href="#">Gmail.com</a>
+            <ul>
+                <li><a href="#">Хэрэглэгчийн хэсэг</a></li>
+                <li><a href="#">Account settings</a></li>
+                <li><a href="#">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Create an Event</h1>
+
+        <nav>
+            <label for="upload-photo">Upload a photo or video</label>
+            <input type="file" id="upload-photo" aria-describedby="photoUploadHelp">
+        </nav>
+
+        <label for="event-title">Event title</label>
+        <input type="text" id="event-title" placeholder="Зэвэнтйн нэрээ оруулна уу" aria-required="true">
+
+        <nav role="group" aria-labelledby="location-toggle-label">
+            <span id="location-toggle-label">Event Type</span>
+            <nav>Offline</nav>
+            <label class="toggle-slider">
+                <input type="checkbox" class="toggle-input" id="location-toggle" aria-checked="false">
+                <span class="toggle-slider"></span>
+            </label>
+            <nav>Online</nav>
+        </nav>
+
+        <label for="date-time">Date and Time</label>
+        <input type="datetime-local" id="date-time" aria-required="true">
+
+        <nav>
+            <label for="event-type">Event type</label>
+            <select id="event-type" aria-required="true">
+                <option value="">-Сонгох-</option>
+                <option value="game">Game</option>
+                <option value="sport">Sport</option>
+                <option value="meeting">Meeting</option>
+                <option value="holiday">Holiday</option>
+                <option value="food-drinks">Food & Drinks</option>
+                <option value="music">Music</option>
+            </select>
+        </nav>
+
+        <nav>
+            <label for="number">Number of Participants</label>
+            <input type="number" id="number" min="1" placeholder="Participants" aria-required="true">
+        </nav>
+
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Дэлгэрэнгүй мэдээлэл" aria-required="true"></textarea>
+
+        <button type="submit">Create Event</button>
+    </section>
+    <footer>
+        <div class="logo">
+            <a href="#"><img src="logo.PNG" width="50" height="50" alt="Logo"></a>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="Like.html">Likes</a>
+            <a href="nuur_huudas">Profile</a>
+            <a href="create_event.html">Create event</a>
+            <a href="Login.html">Login</a>
+        </div>
+        <div class="create-event-footer">
+            <button>lets find event</button>
+        </div>
+    </footer>
+</body>
+
+
+</html>
